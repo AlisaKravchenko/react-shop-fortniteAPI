@@ -5,8 +5,13 @@ export function Footer() {
                 <div className='footer-copyright'>
                     <div className='container'>
                         © 2022 Copyright Text
-                        <a className='grey-text text-lighten-4 right' href='#!'>
-                            More Links
+                        <a
+                            className='grey-text text-lighten-4 right'
+                            href='https://github.com/AlisaKravchenko/react-shop-fortniteAPI'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            Repo
                         </a>
                     </div>
                 </div>
