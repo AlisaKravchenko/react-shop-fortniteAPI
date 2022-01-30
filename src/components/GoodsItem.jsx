@@ -1,5 +1,9 @@
+import { useContext } from 'react/cjs/react.development'
+import { ShopContext } from './context'
+
 export function GoodItem(props) {
-    const { id, name, description, price, full_background, addToBasket } = props
+    const { id, name, description, price, full_background } = props
+    const { addToBasket } = useContext(ShopContext)
     return (
         <div className='card'>
             <div className='card-image'>
